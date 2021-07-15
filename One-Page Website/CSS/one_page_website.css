@@ -1,0 +1,33 @@
+/* 
+STYLES FOR ONE PAGE WEBSITE
+*/
+
+ul {
+    font-family: sans-serif;
+}
+
+body {
+    font-family: fantasy;
+}
+
+p {
+    font-size: medium;
+}
+
+.sign-up input[type="text"] {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #000000;
+    padding: 4px 10px 4px 10px;
+    width: 40em;
+    border-top: 1px solid #09080d;
+    border-right: 2px solid #424549;
+    border-bottom: 2px solid #424549;
+    border-left: 1px solid #09080d;
+    margin: 7px 25em;
+    border-radius: 4px;
+    background: #ffffff;
+    box-shadow: inset 0px 3px 0px 0px rgba(5,5,5,.15);
+    font-family: sans-serif;
+}
