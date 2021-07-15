@@ -8,6 +8,8 @@ ul {
 
 body {
     font-family: fantasy;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 p {
