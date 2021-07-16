@@ -4,9 +4,9 @@ These are some of my early finished projects from when I was learning the basics
 
 ## [Consciousness_Project](https://github.com/JaySPryor/HTML-and-CSS-Projects/tree/main/Consciousness_Project)
 
-![Generic badge](https://img.shields.io/badge/This_project_received_a-PASS-<success>.svg)
+![Generic badge](https://img.shields.io/badge/HTML-<important>.svg)
 
-![Generic badge](https://img.shields.io/badge/This_project_received_a-PASS-<success>.svg)
+![Generic badge](https://img.shields.io/badge/CSS-<informational>.svg)
 
 ![Generic badge](https://img.shields.io/badge/This_project_received_a-PASS-<success>.svg)
 
@@ -16,9 +16,9 @@ The Concsiousness webpage is an example of a site intended to be a source of inf
 
 ## [One-Page Website](https://github.com/JaySPryor/HTML-and-CSS-Projects/tree/main/One-Page%20Website)
 
-![Generic badge](https://img.shields.io/badge/This_project_received_a-PASS-<success>.svg)
+![Generic badge](https://img.shields.io/badge/HTML-<important>.svg)
 
-![Generic badge](https://img.shields.io/badge/This_project_received_a-PASS-<success>.svg)
+![Generic badge](https://img.shields.io/badge/CSS-<informational>.svg)
 
 ![Generic badge](https://img.shields.io/badge/This_project_received_a-PASS-<success>.svg)
 
