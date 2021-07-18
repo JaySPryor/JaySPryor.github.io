@@ -2,6 +2,18 @@
 
 These are some of my early finished projects from when I was learning the basics of HTML, CSS, and Bootstrap.
 
+## [Portfolio_Website](https://github.com/JaySPryor/HTML-and-CSS-Projects/tree/main/Portfolio_Website)
+
+![Generic badge](https://img.shields.io/badge/HTML-<important>.svg)
+
+![Generic badge](https://img.shields.io/badge/CSS-<informational>.svg)
+
+![Generic badge](https://img.shields.io/badge/This_project_is-PENDING-<yellow>.svg)
+
+This is my personal website/portfolio.
+
+
+
 ## [Consciousness_Project](https://github.com/JaySPryor/HTML-and-CSS-Projects/tree/main/Consciousness_Project)
 
 ![Generic badge](https://img.shields.io/badge/HTML-<important>.svg)
