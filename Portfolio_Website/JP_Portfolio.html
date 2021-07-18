@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Jaymes Pryor</title>
+        <link rel="stylesheet" type="text/css" href="./JP_Portfolio.css">
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="./images/video/sky_video.mp4" type="video/mp4">
+                Oh... Your browser does not support HTML5 video... &#1F62C	
+
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Jaymes' Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>Creativity springs from the yearning to be the fullness of who you are.</q>
+                    <br> -Ram Dass
+                    <br>
+                    <br>Hi, I'm Jaymes. Welcome to my portfolio website.
+                    <br>
+                    <br> Thanks for stopping by! 
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="./images/me_n_tree.jpg" alt="Old Growth">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>Who am I?</h1>
+
+                <p><i>Exellent&nbsp;question!</i></p>
+                    <article class="reply">
+                      <p>I am and have been many things: Husband, Artist, Chef, Arborist, and more. My technical skills are vast. And now, I'm a software developer too!</p>
+                    </article>
+                    <article class="reply">
+                        <p>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The&nbsp;Tech&nbsp;Academy</a>’s C# Developer Boot Camp. I'm trained in:</p>
+                        
+                        <ul class="skills">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Bootstrap</li>
+                            <li>JavaScript</li>
+                            <li>SQL</li>
+                            <li>C#</li>
+                            <li>and more!</li>
+                        </ul>
+                        
+                    </article>
+                    <article class="reply">
+                      <p>Have a project that you'd like help with? <a href="#Contact">Contact</a>&nbsp;me&nbsp;below!</p>
+                    </article>
+                  
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <article class="reply">
+                    <p>Check out some of my coding projects on GitHub:</p>
+                </article>
+                <article class="reply">
+                    <p class="center"><a href="https://github.com/JaySPryor/HTML-and-CSS-Projects" target="_blank">JaySPryor/HTML-and-CSS-Projects</a></p>
+                </article>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/JaySPryor/HTML-and-CSS-Projects" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="./images/bridge.jpg" alt="Bridge">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact Me</h1>
+                <form class="email" action="https://formspree.io/f/xpzkjlyg" method="POST">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Name">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="your@email.here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="A brief message">
+                        <input type="submit" value="SEND IT!">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="foot"><a href="" target="_blank">onecoolwebsite.here</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
