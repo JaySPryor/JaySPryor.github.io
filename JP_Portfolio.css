@@ -1,19 +1,33 @@
 /***** STYLES *****/
+
+/* Sets html background to black. */
+html {
+    background-color: black;
+    scroll-behavior: smooth;/*Smooth scroll to bookmarks*/
+}
+
 /* Body */
 body {
-    margin: 0%;
+    opacity: 1; /* Sets opacity for fade in effect. */
+    transition: 2s opacity;
+}
+
+body.fade-out {
+    opacity: 0;/* Sets opacity after fade in effect. */
+    transition: none;
 }
 
 h1 {
     text-transform: uppercase;
     font-family: monospace, "Lucida Console";
+    font-size: 3vw;/*Sets element to % of viewport*/
     text-align: center;
     text-decoration: underline;
     margin-top: 3%;
     color: #1a1a1a; 
 }
 
-/* Hover */
+/* Hover effects for h1s */
 h1:hover {
     filter: grayscale(5%);
     transform: scale(1.1);
@@ -24,8 +38,17 @@ h1:hover {
 .white-text {
     color: #fff;
     text-decoration: underline;
+    font-size: 6vw;
 }
 
+h2 {
+    font-family: Monaco;
+}
+
+h3 {
+    font-size: 2.5vw;
+    font-family: Monaco;
+}
 
 p {
     font-family: Monaco;
@@ -45,6 +68,7 @@ p:hover {
 /* Center class */
 .center {
     text-align: center;
+    font-size: 3vw;
 }
 
 /* Center hover effect */
@@ -75,11 +99,12 @@ img {
 }
 
 /* Image element hover effects */
-img:hover {
+.Pics:hover {
 	filter: grayscale(5%);
     transition: transform 1s;
 	transform: scale(1.1);
 }
+
 /* small screen render */
 @media screen and (max-width: 576px) {
     img {
@@ -93,6 +118,7 @@ footer {
     padding: 1px;
     background-color: rgb(73, 58, 52);
     bottom: 0;
+    max-height: 70px;
 }
 /***** END OF GENERAL STYLING *****/
 
@@ -239,7 +265,7 @@ ul {
 
 .Column_tall {
     padding-top: 3.5%;
-    height: 450px;
+    height: 550px;
 }
 
 .Row:after {
@@ -250,6 +276,58 @@ ul {
 /***** END OF TABLE STYLING *****/
 
 /***** CONTACT FORM STYLING *****/
+.contact-button {
+    background-color: rgb(179, 179, 179);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Monaco;
+}
+
+/* hover effect */
+.contact-button:hover {
+    background-color: rgb(129, 129, 129);
+    box-shadow: 0 0 5px rgb(0, 0, 0) inset;
+    color: rgb(0, 0, 0);
+}
+
+/*Makes popup form hidden by default*/
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 2px solid #f1f1f1;
+    z-index: 9;
+}
+
+/* Styles for form container */
+.email {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+/*makes input fields full width*/
+.email input[typ=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* inputs dim when they get focus*/
+.email input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
 input[type=text] {
     width: 100%;
     padding: 12px;
@@ -268,8 +346,8 @@ input[type=text]:hover {
 }
 
 /* Submit button */
-input[type=submit] {
-    background-color: black;
+.email input[type=submit] {
+    background-color: rgb(0, 128, 6);
     color: white;
     font-weight: bold;
     padding: 12px 20px;
@@ -279,15 +357,23 @@ input[type=submit] {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: Monaco;
 }
 
-/* Hover effect for submit button */
-input[type=submit]:hover {
-    background-color: white;
-    color: black;
-    transform: scale(1.5);
-    transition: transform 1s;
+/*Close button background color*/
+.email .cancel {
+    background-color: rgb(139, 41, 41);
+    color: white;
+    font-weight: bold;
+    padding: 12px 31px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    font-family: Monaco;
 }
 
 /* Form element */
@@ -297,4 +383,35 @@ form {
     padding: 10px;
     font-family: "Trebuchet MS", Optima;
 }
-/***** END STYLING *****/
+
+/* error message when incorrect phone number */
+#error {
+    font-size: 2vw;
+    font-family: 'Trebuchet MS', Optima;
+}
+
+/*Style for slideShow*/
+#slideShow {
+    margin: 50px auto;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+/*keeps slide images contained in slideshow.*/
+#slideShow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+#slideShow > div > img {
+    height: 100%;
+    width: 100%;
+}
+
