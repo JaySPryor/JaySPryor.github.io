@@ -24,18 +24,6 @@ function closeForm() {
     document.getElementById("contactForm").style.display = "none";
 }
 
-// //Slideshow (jquery)
-// $("#slideShow > div:gt(0)").hide();
-
-// setInterval(function() {
-//     $('#slideShow > div:first')
-//     .fadeOut(1000)
-//     .next()
-//     .fadeIn(1000)
-//     .end()
-//     .appendTo('#slideShow');
-// }, 3000);
-
 // This function displays the first image in the slideshow when the page loads
 var slideIndex = 1;
 showSlides(slideIndex);
