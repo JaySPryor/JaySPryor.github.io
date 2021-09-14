@@ -328,7 +328,7 @@ footer {
     float: left;
     width: 50%; /*makes column take up half of page*/
     padding: 1.6%;
-    height: 50vw; /*sets height of column to 450px. may need to be adjusted.*/
+    height: 450px; /*sets height of column to 450px. may need to be adjusted.*/
     background-color: #f2f2f2;
 }
 
@@ -344,7 +344,7 @@ footer {
     float: left;
     width: 50%;
     padding: 1.6%;
-    height: 50vw;
+    height: 450px;
     background-color: #4d4d4d;
 }
 
