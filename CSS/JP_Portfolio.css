@@ -12,7 +12,7 @@ body {
     transition: 3s opacity;/*causes 3 sec fade in*/
     letter-spacing: .2vw;
     font-family: Avant Garde, Helvetica;
-    font-size: 1.5vw;
+    font-size: 1vw;
     overflow-x: hidden;/*hides horizontal scroll bar when quote is hovered*/
     user-select: none;/*prevents text from being highlighted by user*/
 }
@@ -49,7 +49,7 @@ p {
     font-family: Perpetua, Rockwell Extra Bold;
     text-align: justify;/*justifies text within p elements*/
     letter-spacing: .1vw;/*expands text slightly*/
-    font-size: 1.5vw;
+    font-size: 1vw;
     padding-left: 1vw;
     padding-right: 1vw;
 }
@@ -247,7 +247,7 @@ footer {
     padding: 2vw;
     color: darkgray; 
     font-weight: bold;
-    font-size: 1.5vw;
+    font-size: 1vw;
     border-radius: 0 3px 3px 0; /*slightly rounded border on top/bottom right corners */
     user-select: none; /*makes it so user can't highlight text */
     transition: 0.6s ease; /*details of hover transition*/
@@ -275,7 +275,7 @@ footer {
     text-align: center; /*text is center aligned*/
     font-family: Perpetua, Rockwell Extra Bold;
     letter-spacing: .1vw; /*slight spacing between letters */
-    font-size: 1.5vw;
+    font-size: 1vw;
     background-color: rgba(0, 0, 0, 0.75); /*slightly transparent black background */
     font-weight: bold;
     border-radius: 0px 0px 7px 7px; /*text background rounded corners on bottom left/right corners */
@@ -413,7 +413,7 @@ footer {
 button {
     font-family: "Trebuchet MS", Optima;
     letter-spacing: .3vw; /*slight spacing between letters */
-    font-size: 1.5vw;
+    font-size: 1vw;
     font-weight: bold; 
     padding: 1.5vw;
     cursor: pointer;
