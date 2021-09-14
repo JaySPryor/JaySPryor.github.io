@@ -325,11 +325,10 @@ footer {
 } 
 
 .Column_1 {
-    font-size: 10vh;
     float: left;
     width: 50%; /*makes column take up half of page*/
     padding: 1.6%;
-    height: 450px; /*sets height of column to 450px. may need to be adjusted.*/
+    height: 50vh; /*sets height of column to 450px. may need to be adjusted.*/
     background-color: #f2f2f2;
 }
 
