@@ -325,6 +325,7 @@ footer {
 } 
 
 .Column_1 {
+    font-size: inherit;
     float: left;
     width: 50%; /*makes column take up half of page*/
     padding: 1.6%;
@@ -453,4 +454,6 @@ button:hover, .form-container .btn:hover {
     -webkit-transition-duration: 1s;
     border-color: black;
 }
+
+
 /*END CONTACT FORM STYLES************/
